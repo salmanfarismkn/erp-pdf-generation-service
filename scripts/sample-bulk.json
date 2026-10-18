@@ -1,0 +1,314 @@
+{
+    "documents":  [
+                      {
+                          "documentType":  "invoice",
+                          "documentId":  "BULK-TEST-1",
+                          "issueDate":  "2026-10-13",
+                          "dueDate":  "2026-10-28",
+                          "seller":  {
+                                         "name":  "ABC Technologies Pvt Ltd",
+                                         "address":  "Jabalpur, Madhya Pradesh, India",
+                                         "gstin":  "22AAAAA0000A1Z5"
+                                     },
+                          "buyer":  {
+                                        "name":  "XYZ Enterprises",
+                                        "address":  "Bhopal, Madhya Pradesh, India",
+                                        "gstin":  "22BBBBB0000B1Z5"
+                                    },
+                          "lineItems":  [
+                                            {
+                                                "description":  "Server equipment",
+                                                "quantity":  2,
+                                                "unitPricePaise":  5000000,
+                                                "gstRateBps":  1800
+                                            },
+                                            {
+                                                "description":  "Installation services",
+                                                "quantity":  1,
+                                                "unitPricePaise":  1000000,
+                                                "gstRateBps":  1800
+                                            }
+                                        ],
+                          "notes":  "Payment according to the agreed terms."
+                      },
+                      {
+                          "documentType":  "invoice",
+                          "documentId":  "BULK-TEST-2",
+                          "issueDate":  "2026-10-13",
+                          "dueDate":  "2026-10-28",
+                          "seller":  {
+                                         "name":  "ABC Technologies Pvt Ltd",
+                                         "address":  "Jabalpur, Madhya Pradesh, India",
+                                         "gstin":  "22AAAAA0000A1Z5"
+                                     },
+                          "buyer":  {
+                                        "name":  "XYZ Enterprises",
+                                        "address":  "Bhopal, Madhya Pradesh, India",
+                                        "gstin":  "22BBBBB0000B1Z5"
+                                    },
+                          "lineItems":  [
+                                            {
+                                                "description":  "Server equipment",
+                                                "quantity":  2,
+                                                "unitPricePaise":  5000000,
+                                                "gstRateBps":  1800
+                                            },
+                                            {
+                                                "description":  "Installation services",
+                                                "quantity":  1,
+                                                "unitPricePaise":  1000000,
+                                                "gstRateBps":  1800
+                                            }
+                                        ],
+                          "notes":  "Payment according to the agreed terms."
+                      },
+                      {
+                          "documentType":  "invoice",
+                          "documentId":  "BULK-TEST-3",
+                          "issueDate":  "2026-10-13",
+                          "dueDate":  "2026-10-28",
+                          "seller":  {
+                                         "name":  "ABC Technologies Pvt Ltd",
+                                         "address":  "Jabalpur, Madhya Pradesh, India",
+                                         "gstin":  "22AAAAA0000A1Z5"
+                                     },
+                          "buyer":  {
+                                        "name":  "XYZ Enterprises",
+                                        "address":  "Bhopal, Madhya Pradesh, India",
+                                        "gstin":  "22BBBBB0000B1Z5"
+                                    },
+                          "lineItems":  [
+                                            {
+                                                "description":  "Server equipment",
+                                                "quantity":  2,
+                                                "unitPricePaise":  5000000,
+                                                "gstRateBps":  1800
+                                            },
+                                            {
+                                                "description":  "Installation services",
+                                                "quantity":  1,
+                                                "unitPricePaise":  1000000,
+                                                "gstRateBps":  1800
+                                            }
+                                        ],
+                          "notes":  "Payment according to the agreed terms."
+                      },
+                      {
+                          "documentType":  "invoice",
+                          "documentId":  "BULK-TEST-4",
+                          "issueDate":  "2026-10-13",
+                          "dueDate":  "2026-10-28",
+                          "seller":  {
+                                         "name":  "ABC Technologies Pvt Ltd",
+                                         "address":  "Jabalpur, Madhya Pradesh, India",
+                                         "gstin":  "22AAAAA0000A1Z5"
+                                     },
+                          "buyer":  {
+                                        "name":  "XYZ Enterprises",
+                                        "address":  "Bhopal, Madhya Pradesh, India",
+                                        "gstin":  "22BBBBB0000B1Z5"
+                                    },
+                          "lineItems":  [
+                                            {
+                                                "description":  "Server equipment",
+                                                "quantity":  2,
+                                                "unitPricePaise":  5000000,
+                                                "gstRateBps":  1800
+                                            },
+                                            {
+                                                "description":  "Installation services",
+                                                "quantity":  1,
+                                                "unitPricePaise":  1000000,
+                                                "gstRateBps":  1800
+                                            }
+                                        ],
+                          "notes":  "Payment according to the agreed terms."
+                      },
+                      {
+                          "documentType":  "invoice",
+                          "documentId":  "BULK-TEST-5",
+                          "issueDate":  "2026-10-13",
+                          "dueDate":  "2026-10-28",
+                          "seller":  {
+                                         "name":  "ABC Technologies Pvt Ltd",
+                                         "address":  "Jabalpur, Madhya Pradesh, India",
+                                         "gstin":  "22AAAAA0000A1Z5"
+                                     },
+                          "buyer":  {
+                                        "name":  "XYZ Enterprises",
+                                        "address":  "Bhopal, Madhya Pradesh, India",
+                                        "gstin":  "22BBBBB0000B1Z5"
+                                    },
+                          "lineItems":  [
+                                            {
+                                                "description":  "Server equipment",
+                                                "quantity":  2,
+                                                "unitPricePaise":  5000000,
+                                                "gstRateBps":  1800
+                                            },
+                                            {
+                                                "description":  "Installation services",
+                                                "quantity":  1,
+                                                "unitPricePaise":  1000000,
+                                                "gstRateBps":  1800
+                                            }
+                                        ],
+                          "notes":  "Payment according to the agreed terms."
+                      },
+                      {
+                          "documentType":  "invoice",
+                          "documentId":  "BULK-TEST-6",
+                          "issueDate":  "2026-10-13",
+                          "dueDate":  "2026-10-28",
+                          "seller":  {
+                                         "name":  "ABC Technologies Pvt Ltd",
+                                         "address":  "Jabalpur, Madhya Pradesh, India",
+                                         "gstin":  "22AAAAA0000A1Z5"
+                                     },
+                          "buyer":  {
+                                        "name":  "XYZ Enterprises",
+                                        "address":  "Bhopal, Madhya Pradesh, India",
+                                        "gstin":  "22BBBBB0000B1Z5"
+                                    },
+                          "lineItems":  [
+                                            {
+                                                "description":  "Server equipment",
+                                                "quantity":  2,
+                                                "unitPricePaise":  5000000,
+                                                "gstRateBps":  1800
+                                            },
+                                            {
+                                                "description":  "Installation services",
+                                                "quantity":  1,
+                                                "unitPricePaise":  1000000,
+                                                "gstRateBps":  1800
+                                            }
+                                        ],
+                          "notes":  "Payment according to the agreed terms."
+                      },
+                      {
+                          "documentType":  "invoice",
+                          "documentId":  "BULK-TEST-7",
+                          "issueDate":  "2026-10-13",
+                          "dueDate":  "2026-10-28",
+                          "seller":  {
+                                         "name":  "ABC Technologies Pvt Ltd",
+                                         "address":  "Jabalpur, Madhya Pradesh, India",
+                                         "gstin":  "22AAAAA0000A1Z5"
+                                     },
+                          "buyer":  {
+                                        "name":  "XYZ Enterprises",
+                                        "address":  "Bhopal, Madhya Pradesh, India",
+                                        "gstin":  "22BBBBB0000B1Z5"
+                                    },
+                          "lineItems":  [
+                                            {
+                                                "description":  "Server equipment",
+                                                "quantity":  2,
+                                                "unitPricePaise":  5000000,
+                                                "gstRateBps":  1800
+                                            },
+                                            {
+                                                "description":  "Installation services",
+                                                "quantity":  1,
+                                                "unitPricePaise":  1000000,
+                                                "gstRateBps":  1800
+                                            }
+                                        ],
+                          "notes":  "Payment according to the agreed terms."
+                      },
+                      {
+                          "documentType":  "invoice",
+                          "documentId":  "BULK-TEST-8",
+                          "issueDate":  "2026-10-13",
+                          "dueDate":  "2026-10-28",
+                          "seller":  {
+                                         "name":  "ABC Technologies Pvt Ltd",
+                                         "address":  "Jabalpur, Madhya Pradesh, India",
+                                         "gstin":  "22AAAAA0000A1Z5"
+                                     },
+                          "buyer":  {
+                                        "name":  "XYZ Enterprises",
+                                        "address":  "Bhopal, Madhya Pradesh, India",
+                                        "gstin":  "22BBBBB0000B1Z5"
+                                    },
+                          "lineItems":  [
+                                            {
+                                                "description":  "Server equipment",
+                                                "quantity":  2,
+                                                "unitPricePaise":  5000000,
+                                                "gstRateBps":  1800
+                                            },
+                                            {
+                                                "description":  "Installation services",
+                                                "quantity":  1,
+                                                "unitPricePaise":  1000000,
+                                                "gstRateBps":  1800
+                                            }
+                                        ],
+                          "notes":  "Payment according to the agreed terms."
+                      },
+                      {
+                          "documentType":  "invoice",
+                          "documentId":  "BULK-TEST-9",
+                          "issueDate":  "2026-10-13",
+                          "dueDate":  "2026-10-28",
+                          "seller":  {
+                                         "name":  "ABC Technologies Pvt Ltd",
+                                         "address":  "Jabalpur, Madhya Pradesh, India",
+                                         "gstin":  "22AAAAA0000A1Z5"
+                                     },
+                          "buyer":  {
+                                        "name":  "XYZ Enterprises",
+                                        "address":  "Bhopal, Madhya Pradesh, India",
+                                        "gstin":  "22BBBBB0000B1Z5"
+                                    },
+                          "lineItems":  [
+                                            {
+                                                "description":  "Server equipment",
+                                                "quantity":  2,
+                                                "unitPricePaise":  5000000,
+                                                "gstRateBps":  1800
+                                            },
+                                            {
+                                                "description":  "Installation services",
+                                                "quantity":  1,
+                                                "unitPricePaise":  1000000,
+                                                "gstRateBps":  1800
+                                            }
+                                        ],
+                          "notes":  "Payment according to the agreed terms."
+                      },
+                      {
+                          "documentType":  "invoice",
+                          "documentId":  "BULK-TEST-10",
+                          "issueDate":  "2026-10-13",
+                          "dueDate":  "2026-10-28",
+                          "seller":  {
+                                         "name":  "ABC Technologies Pvt Ltd",
+                                         "address":  "Jabalpur, Madhya Pradesh, India",
+                                         "gstin":  "22AAAAA0000A1Z5"
+                                     },
+                          "buyer":  {
+                                        "name":  "XYZ Enterprises",
+                                        "address":  "Bhopal, Madhya Pradesh, India",
+                                        "gstin":  "22BBBBB0000B1Z5"
+                                    },
+                          "lineItems":  [
+                                            {
+                                                "description":  "Server equipment",
+                                                "quantity":  2,
+                                                "unitPricePaise":  5000000,
+                                                "gstRateBps":  1800
+                                            },
+                                            {
+                                                "description":  "Installation services",
+                                                "quantity":  1,
+                                                "unitPricePaise":  1000000,
+                                                "gstRateBps":  1800
+                                            }
+                                        ],
+                          "notes":  "Payment according to the agreed terms."
+                      }
+                  ]
+}

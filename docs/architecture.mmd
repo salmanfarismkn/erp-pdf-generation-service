@@ -1,0 +1,27 @@
+flowchart LR
+    Client[Client / ERP app]
+    API[Fastify API\nPOST /v1/documents/pdf\nPOST /v1/batches\nGET /v1/batches/:jobId]
+    PG[(PostgreSQL\npdf_jobs / pdf_outbox)]
+    Redis[(Redis\nBullMQ queue)]
+    Renderer[Puppeteer PDF renderer]
+    Worker[Bulk worker]
+    Storage[Storage jobs directory]
+    ZIP[ZIP archive + manifest.json + manifest.sig]
+    Manifest[Ed25519 verification]
+
+    Client -->|HTTP JSON| API
+    API -->|single PDF render| Renderer
+    API -->|persist batch metadata + outbox| PG
+    API -->|download status| PG
+    API -->|read artifact| Storage
+
+    PG -->|pending events| Outbox[Transactional outbox dispatcher]
+    Outbox -->|enqueue| Redis
+    Redis -->|process-bulk job| Worker
+    Worker -->|SELECT pending batch| PG
+    Worker -->|render each document| Renderer
+    Worker -->|write PDFs + archive| Storage
+    Storage --> ZIP
+    Worker -->|manifest signed| Manifest
+    Worker -->|status updates| PG
+    Client -->|download ZIP| ZIP
